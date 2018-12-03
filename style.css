@@ -1,25 +1,57 @@
 @import url('https://fonts.googlepis.com/css?family=Poppins:400,500,700');
 
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
 
+navbar {
+    padding: .8rem;
+}
 
+.navbar-nav li {
+    padding-right: 20px;
+}
 
+.nav-link {
+    font-size: 1.1em !important
+}
 
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
 
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10 px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 10px #000;
+}
 
 
 
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media (max-width: 992px) {}
 
-}
-@media (max-width: 768px) {
+@media (max-width: 768px) {}
 
-}
-@media (max-width: 576px) {
-
-}
+@media (max-width: 576px) {}
 
 
 /*---Firefox Bug Fix --*/
@@ -29,37 +61,109 @@
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
+    width: 100%;
 }
+
 /*--- Fixed Background Image --*/
 figure {
     position: relative;
     width: 100%;
     height: 60%;
-    margin: 0!important;
+    margin: 0 !important;
 }
+
 .fixed-wrap {
-    clip: rect(0, auto, auto, 0)
+    clip: rect(0, auto, auto, 0);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
+
 #fixed {
-    background-image: url();
+    /* background-image: url(); */
     position: fixed;
     display: block;
     top: 0;
-    left 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center center;
     -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    transform: translateZ(0);
     will-change: transform;
 }
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
 }
+/* 
+.card{
+    margin-left: 50%;
+    border: 1px solid red;
+
+} */
+
+.card-wrapper{
+    align-items: center;
+    text-align: center;
+}
+
+.more-about-me{
+    background: #f1f1f1;
+    text-align: center;
+  }
+  
+  .more-about-me img{
+    text-align: right
+  }
+  .img-circle{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+  }
+  
+  .circle-avatar{
+    max-width: 100%;
+    width:100%;
+    height:auto;
+    display:block;
+    padding-top:100%;
+    border-radius:50%;
+    border: 1px solid rgb(201, 201, 201);  
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+  }
+
+  .about-me-wrapper{
+      align-items: center;
+      text-align: center; 
+      display: flex
+  }
+  
+  #about-me-img-wrapper{
+      flex: 3;
+      margin-left: 50%;
+  }
+
+  #about-paragraph{
+      flex: 2;
+  }
+
+  /* 
+  
+  heroku --version
+  git status
+  git remote
+  heroku create
+  */
