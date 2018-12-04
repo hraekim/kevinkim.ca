@@ -34,40 +34,48 @@ navbar {
 .carousel-caption h1 {
     font-size: 500%;
     text-transform: uppercase;
-    text-shadow: 1px 1px 10 px #000;
+    text-shadow: 1px 1px 15px #000;
 }
 
 .carousel-caption h3 {
     font-size: 200%;
     font-weight: 500;
-    text-shadow: 1px 1px 1px 10px #000;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
 }
 
-@keyframes slider {
-    0% { left: 0%; }
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
-    }
-    
-    body { margin: 0; } 
-    div#slider { overflow: hidden; }
-    div#slider figure img { width: 20%; float: left; }
-    div#slider figure { 
-      position: relative;
-      width: 500%;
-      margin: 0;
-      left: 0;
-      text-align: left;
-      font-size: 0;
-      animation: 30s slidy infinite; 
-    }
-    
+.btn-primary {
+    background-color: rgb(55, 115, 228);
+    border: 1px solid darkblue;
+}
+
+.btn-primary:hover {
+    background-color: rgb(55, 115, 228);
+    border: 1px solid darkblue;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {}
@@ -138,18 +146,19 @@ figure {
 .more-about-me{
     background: #f1f1f1;
     text-align: center;
-  }
+}
   
-  .more-about-me img{
+.more-about-me img{
     text-align: right
-  }
-  .img-circle{
+}
+
+.img-circle{
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
-  }
+}
   
-  .circle-avatar{
+.circle-avatar{
     max-width: 100%;
     width:100%;
     height:auto;
