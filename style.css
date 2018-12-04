@@ -256,32 +256,31 @@ figure {
     padding: 1rem;
 }
 
-.card{
-    margin-left: 50%;
+.card {
+    margin-right: 50%;
+} 
 
-} */
-
-.card-wrapper{
+.card-wrapper { 
     align-items: center;
     text-align: center;
 }
 
-.more-about-me{
+.more-about-me {
     background: #f1f1f1;
     text-align: center;
 }
   
-.more-about-me img{
+.more-about-me img {
     text-align: right
 }
 
-.img-circle{
+.img-circle {
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
 }
   
-.circle-avatar{
+.circle-avatar {
     max-width: 100%;
     width:100%;
     height:auto;
@@ -300,18 +299,18 @@ figure {
     bottom: 0;  
   }
 
-  .about-me-wrapper{
+  .about-me-wrapper {
       align-items: center;
       text-align: center; 
       display: flex
   }
   
-  #about-me-img-wrapper{
+  #about-me-img-wrapper {
       flex: 3;
       margin-left: 50%;
   }
 
-  #about-paragraph{
+  #about-paragraph {
       flex: 2;
   }
 
