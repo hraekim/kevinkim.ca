@@ -254,22 +254,14 @@ figure {
     padding: 1rem;
 }
 
-.card {
-    margin-right: 50%;
-} 
-
-.card-wrapper { 
-    align-items: center;
-    text-align: center;
-}
-
 .more-about-me {
     background: #f1f1f1;
     text-align: center;
+    vertical-align: middle;
 }
   
 .more-about-me img {
-    text-align: right
+    text-align: right;
 }
 
 .img-circle {
