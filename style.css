@@ -303,3 +303,11 @@ figure {
   #about-paragraph {
       flex: 2;
   }}
+
+  .itsme {
+    /* margin: 0 auto; */
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+  }
