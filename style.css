@@ -121,12 +121,17 @@ navbar {
 .fa-product-hunt{
     color: #e54d26;
 }
+
+.fa-stack-overflow{
+    color: #f48024;
+}
 .fa-facebook:hover,
 .fa-linkedin:hover,
 .fa-twitter:hover,
 .fa-github:hover,
 .fa-reddit:hover,
-.fa-product-hunt:hover{
+.fa-product-hunt:hover,
+.fa-stack-overflow:hover{
     color: #d5d5d5;
 }
 
