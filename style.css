@@ -159,6 +159,15 @@ hr.light-100 {
     margin-bottom: 1rem;
 }
 
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.gif {
+    max-width: 100%;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 .social a {
