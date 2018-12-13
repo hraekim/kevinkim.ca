@@ -1,0 +1,10 @@
+@import url('https://fonts.googlepis.com/css?family=Poppins:400,500,700');
+
+html,
+#ryerson {
+    background-image: url("ryerson.png");
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
