@@ -243,98 +243,63 @@ hr.light-100 {
     padding: 1rem;
 }
 
-.more-about-me {
-    background: #f1f1f1;
-    text-align: center;
-    vertical-align: middle;
-}
-  
-.more-about-me img {
-    text-align: right;
+.about-me-wrapper {
+    align-items: center;
+    text-align: center; 
+    display: flex
 }
 
-.img-circle {
-    border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
+#about-me-img-wrapper {
+    flex: 3;
+    margin-left: 50%;
 }
-  
-.circle-avatar {
-    max-width: 100%;
-    width:100%;
-    height:auto;
-    display:block;
-    padding-top:100%;
-    border-radius:50%;
-    border: 1px solid rgb(201, 201, 201);  
-    background-position-y: center;
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;  
-  }
 
-  .about-me-wrapper {
-      align-items: center;
-      text-align: center; 
-      display: flex
-  }
-  
-  #about-me-img-wrapper {
-      flex: 3;
-      margin-left: 50%;
-  }
+#about-paragraph {
+    flex: 2;
+}}
 
-  #about-paragraph {
-      flex: 2;
-  }}
+.itsme {
+margin: 0 auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
 
-  .itsme {
-    margin: 0 auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+.wallpaper {
+    background: no-repeat left top;
+    background-size: 100%;
+    height: 500px;
+    width: 300px;
+}
 
-  .wallpaper {
-      background: no-repeat left top;
-      background-size: 100%;
-      height: 500px;
-      width: 300px;
-  }
-
-  #full-width-background {
-      background-image: url("coding.png");
-      height: 800px;
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: 100% auto;
-  }
-
-  #myphilosophy {
-    background-image: url("programarchive.png");
+#full-width-background {
+    background-image: url("coding.png");
+    height: 800px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 550px;
-    width: 100%;
-  }
+}
 
-  #unicorn-animoji {
-    width: 450px;
-    height: 300px;
-  }
+#myphilosophy {
+background-image: url("programarchive.png");
+background-repeat: no-repeat;
+background-size: 100% auto;
+height: 550px;
+width: 100%;
+}
 
-  #lion-animoji {
-    width: 450px;
-    height: 300px;
-  }
+#unicorn-animoji {
+width: 450px;
+height: 300px;
+}
 
-  #chicken-animoji {
-    width: 450px;
-    height: 300px;
-  }
+#lion-animoji {
+width: 450px;
+height: 300px;
+}
+
+#chicken-animoji {
+width: 450px;
+height: 300px;
+}
