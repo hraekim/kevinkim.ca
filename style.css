@@ -6,6 +6,7 @@ body {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     color: #222;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -311,3 +312,4 @@ height: 300px;
 width: 450px;
 height: 300px;
 }
+
