@@ -1,12 +1,12 @@
 <script>
-var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
   } else {
-    document.getElementById("navbar").style.top = "-50px";
+    navbar.classList.remove("sticky");
   }
-  prevScrollpos = currentScrollPos;
 }
 </script>
