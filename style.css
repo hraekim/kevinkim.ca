@@ -275,6 +275,12 @@ bottom: 0;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 
 #full-width-background {
