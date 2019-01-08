@@ -270,7 +270,7 @@ bottom: 0;
 }
 
 .wallpaper {
-    background: no-repeat left top;
+    background: no-repeat center center fixed;
     height: 800px;
     width: 100%;
     background-repeat: no-repeat;
