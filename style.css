@@ -272,13 +272,13 @@ bottom: 0;
 .wallpaper {
     background: no-repeat center center fixed;
     height: 800px;
-    width: 100%;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
     height: 100%;
     overflow: hidden;
 }
@@ -286,7 +286,7 @@ bottom: 0;
 #full-width-background {
     background-image: url("coding.png");
     height: 800px;
-    width: 100%;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -296,7 +296,7 @@ background-image: url("programarchive.png");
 background-repeat: no-repeat;
 background-size: 100% auto;
 height: 550px;
-width: 100%;
+max-width: 100%;
 }
 
 #skills {
@@ -304,21 +304,21 @@ background-image: url("skills.png");
 background-repeat: no-repeat;
 background-size: 100% auto;
 height: 550px;
-width: 100%;
+max-width: 100%;
 }
 
 #unicorn-animoji {
-width: 450px;
-height: 300px;
+width: 300px;
+height: 200px;
 }
 
 #lion-animoji {
-width: 450px;
-height: 300px;
+width: 300px;
+height: 200px;
 }
 
 #chicken-animoji {
-width: 450px;
-height: 300px;
+width: 300px;
+height: 200px;
 }
 
