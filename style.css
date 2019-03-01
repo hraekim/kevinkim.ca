@@ -1,44 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
-html,
 body {
-    font-family: 'Lato', sans-serif;
-    color: #50596;
-    overflow-x: hidden;
-    overflow-y: visible;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    z-index: 10;
+  font-family: 'Lato', sans-serif;
+  color: #50596;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  z-index: 10;
 }
 
 .offset:before {
-    display: block;
-    content: "";
-    height: 4rem;
-    margin-top: -4rem;
-  }
+  display: block; 
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;  
+}
 
 /*--Navbar--*/
 .navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: .9rem;
-    letter-spacing: .1rem;
-    background: rgba(0, 0, 0, 0.6)!important;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
 }
 .navbar-brand img{
-    height: 2rem;
+  height: 2rem;
 }
 .navbar-nav li{
-    padding-right: .7rem;
+  padding-right: .7rem;
 }
 .navbar-dark .navbar-nav .nav-link{
-    color: white;
-    padding-top: .8rem;
+  color: white;
+  padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #1ebba3;
+  color: #1ebba3;
 }
 
 /*--Landing Page--*/
@@ -76,58 +74,58 @@ body {
 
 /*--Course Section--*/
 .narrow {
-    width: 75%;
-    margin: 1.5rem auto;
-    padding-top: 2rem;
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
 }
 .narrow h1 {
-font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 .btn-secondary {
-border-width: medium;
-border-radius: 0;
-text-transform: uppercase;
-font-size: 1.2rem;
-padding: .6rem 1.2rem;
-margin: 1rem;
-color: white;
-background-color:#1ebba3;
-border-color: #1ebba3;
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: .6rem 1.2rem;
+  margin: 1rem;
+  color: white;
+  background-color:#1ebba3;
+  border-color: #1ebba3;
 }
 .btn-secondary:hover {
-background-color:#189582;
-border-color: #189582;
+  background-color:#189582;
+  border-color: #189582;
 }
 /*--End Course Section--*/
 
 /*--Features Section--*/
 .jumbotron {
-margin-bottom: 0;
-padding: 2rem 0 3.5rem;
-border-radius: 0;
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
 }
 h3.heading {
-font-size: 1.9rem;
-font-weight: 700;
-text-transform: uppercase;
-margin-bottom: 1.9rem;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
 }
 .heading-underline {
-width: 3rem;
-height: .2rem;
-background-color: #1ebba3;
-margin: 0 auto;
+  width: 3rem;
+  height: .2rem;
+  background-color: #1ebba3;
+  margin: 0 auto;
 }
 .feature svg.svg-inline--fa {
-color: #1ebba3;
+  color: #1ebba3;
 }
 .feature h3 {
-font-size: 1.3rem;
-text-transform: uppercase;
-padding-bottom: .4rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
 }
 .feature p {
-font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 /*--Resource Section--*/
@@ -167,28 +165,28 @@ blockquote .svg-inline--fa {
 }
 
 .btn-primary {
-    background-color: rgb(55, 115, 228);
-    border: 1px solid darkblue;
+  background-color: rgb(55, 115, 228);
+  border: 1px solid darkblue;
 }
 
 .btn-primary:hover {
-    background-color: rgb(55, 115, 228);
-    border: 1px solid darkblue;
+  background-color: rgb(55, 115, 228);
+  border: 1px solid darkblue;
 }
 
 .jumbotron {
-    padding: 1rem;
-    border-radius: 0;
+  padding: 1rem;
+  border-radius: 0;
 }
 
 .padding {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .welcome {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2rem;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 .welcome hr {
@@ -215,6 +213,7 @@ blockquote .svg-inline--fa {
     margin: 1rem;
 }
 
+/*--Socials--*/
 .social a {
     font-size: 4.5em;
     padding: 3rem;
@@ -319,6 +318,10 @@ hr.light-100 {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+.social a {
+    font-size: 2.5rem;
+    padding: 1.2rem;
 }
 }
 
