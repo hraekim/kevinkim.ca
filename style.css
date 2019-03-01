@@ -5,6 +5,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #50596;
     overflow-x: hidden;
+    overflow-y: visible;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     z-index: 10;
@@ -149,21 +150,21 @@ font-size: 1.1rem;
 
 /*--Clients Section--*/
 .clients img {
-    width: 100%;
-    border-radius: 50%;
+  width: 100%;
+  border-radius: 50%;
   }
-  blockquote .svg-inline--fa {
-    color: #1ebba3;
-    margin: 1rem;
+blockquote .svg-inline--fa {
+  color: #1ebba3;
+  margin: 1rem;
   }
-  .clients-hr {
-    border-top: .05rem solid #1ebba3;
-  }
-  .kevin img {
-    width: 100%;
-    border-radius: 50%;
-    text-align: center;
-  }
+.clients-hr {
+  border-top: .05rem solid #1ebba3;
+}
+.kevin img {
+  width: 100%;
+  border-radius: 50%;
+  text-align: center;
+}
 
 .btn-primary {
     background-color: rgb(55, 115, 228);
@@ -291,60 +292,33 @@ hr.light-100 {
     max-width: 100%;
 }
 
-/*---Media Queries --*/
-@media (max-width: 992px) {
-.social a {
-    font-size: 4em;
-    padding: 2rem;
+/*--Media Queries--*/
+@media (max-width: 767px) {
+.caption h1{
+  font-size: 2.3rem;
+  letter-spacing: .15rem;
+  padding-bottom: .5rem;
 }
-@media (max-width: 768px) {
-.carousel-caption {
-    top: 45%;
+.caption h3 {
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
 }
-.carousel-caption h1 {
-    font-size: 350%;
+.btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1rem;
 }
-.carousel-caption h3 {
-    font-size: 140%;
-    font-weight: 400;
-    padding-bottom: .2rem;
+.narrow h1 {
+  font-size: 1.5rem;
 }
-.carousel-caption .btn {
-    font-size: 95%;
-    padding: 8px 14px;
+.clients img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
-.display-4 {
-    font-size: 200%;
-}
-.social a {
-    font-size: 2.5em;
-    padding: 1.2rem;
-}
-}
-
-@media (max-width: 576px) {
-.carousel-caption {
-    top: 40%;
-}
-.carousel-caption h1 {
-    font-size: 250%;
-}
-.carousel-caption h3 {
-    font-size: 110%;
-}
-.carousel-caption .btn {
-    font-size: 90%;
-    padding: 4px 8px;
-}
-.carousel-indicators {
-    display: none;
-}
-.display-4 {
-    font-size: 160%;
-}
-.social a {
-    font-size: 2em;
-    padding: .7rem;
+.howitworks img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 }
 
