@@ -325,15 +325,12 @@ hr.light-100 {
 }
 }
 
-/*---Firefox Bug Fix --*/
-.carousel-item {
-    transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-    -webkit-backface-visibility: visible;
-    backface-visibility: visible;
-    width: 100%;
+hr.socket{
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
 }
+/*---Firefox Bug Fix --*/
 
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
@@ -408,3 +405,6 @@ width: 300px;
 height: 200px;
 }
 
+.brand img{
+  height: 4rem;
+}
